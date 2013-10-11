@@ -1,0 +1,21 @@
+{
+    "name": "cynergy/packagebuilder",
+    "description": "Package Builder for SugarCRM",
+    "require": {
+        "symfony/console": "~2.3",
+        "symfony/finder": "~2.3"
+    },
+    "require-dev": {
+        "symfony/monolog-bridge": "~2.3"
+    },
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "authors": [
+        {
+            "name": "James Beauchamp",
+            "email": "james@cynergysolutions.net"
+        }
+    ],
+    "minimum-stability": "stable"
+}

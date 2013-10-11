@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+set_time_limit(0);
+
+require 'vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+use PackageBuilder\Console\Command\BuildPackageCommand;
+
+$app = new Application('PackageBuilder for SugarCRM', '2.0');
+$app->addCommands(array(
+	new PackageBuilder\Console\Command\BuildPackageCommand(),
+));
+$app->run();
