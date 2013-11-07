@@ -1,7 +1,7 @@
 Package Builder
 ==============
 Installation:  
-Unzip and chmod a+x app/pb.php
+Unzip and chmod a+x app/pb
 
 Usage:  app/pb buildpackage -p /path/to/repo -r "tag1...tag2" -d /path/to/final/package/dir
 
